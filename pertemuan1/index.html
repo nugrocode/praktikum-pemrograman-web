@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="website latihan pemrograman web">
+    <meta name="keywords" content="pemrograman, web, latihan, html, css, javascript">
+    <meta name="author" content="Mahasiswa">
+    <title>website pertamaku</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/logo_ukit.png" type="image/x-icon">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">My Website</h1>
+            <ul class="menu">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+       <div class="hero_content">
+        <h2>Selamat Datang di Website Saya</h2>
+        <p>Ini adalah contoh website sederhana yang dibuat untuk latihan pemrograman web.</p>
+        <button onclick="tampilkanPesan()">Klik di sini</button>
+       </div>
+    </section>
+
+    <!-- PROFIL SECTION -->
+    <section id="profil" class="profil">
+        <h2>Profil</h2>
+       <div class="card">
+        <img src="image/nugroho.jpeg" alt="Foto Profil" >
+        <h3>Nugroho Indrayadi</h3>
+        <p>Saya adalah seorang mahasiswa Program Studi Teknik Informatika yang memiliki minat besar dalam dunia teknologi, khususnya di bidang pengembangan web dan aplikasi. Saya senang mempelajari hal-hal baru, mulai dari desain antarmuka hingga pengolahan data dan pengembangan sistem yang bermanfaat. Dengan semangat belajar yang tinggi, saya terus mengembangkan kemampuan dalam pemrograman seperti HTML, CSS, JavaScript.</p>
+       </div>
+    </section>
+
+    <!-- KONTAK SECTION -->
+    <section id="kontak" class="kontak">
+        <h2>Hubungi Saya</h2>
+        <form id="formKontak">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" required></textarea>
+
+            <button type="submit">Kirim</button>
+        </form>
+
+        <p id="output"></p>
+    </section>
+    
+    <!-- FOOTER -->
+    <footer>
+    <p>&copy; 2026 My Website. All rights reserved.</p>
+    </footer>
+
+    <!-- SCRIPT JS -->
+    <script src="script.js"></script>
+</body>
+</html>
