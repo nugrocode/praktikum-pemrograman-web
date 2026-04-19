@@ -1,6 +1,6 @@
 //
 function tampilkanPesan() {
-    alert("Selamat anda berhasil menjalankan JavaScript!");
+    alert("Terimah kasih telah berkunjung ke website saya! - anda berhasil terhubung ke JavaScript");
 }
 
 //
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const email = document.getElementById("email").value;
         const pesan = document.getElementById("pesan").value;
 
-        const output = `Terima Kasih <b>${nama}</b>! 
+        const output = `<br>Terima Kasih <b>${nama}</b>!</br>
         Pesan Anda telah kami terima. Kami akan menghubungi Anda melalui email <b>${email}</b>. Pesan Anda: <i>${pesan}</i>`;
 
         document.getElementById("output").innerHTML = output;
