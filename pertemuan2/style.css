@@ -44,6 +44,16 @@ article {
 
 }
 
+.form-input {
+    /* background-color: #3742fa; */
+    width: 60%;
+    margin: auto;
+} 
+
+.form-input h2{
+    margin-bottom: 30px;
+}
+
 
 form input, form textarea {
     width: 100%;
@@ -62,6 +72,11 @@ button {
     border: none;
     color: white;
     border-radius: 5px;
+}
+
+button:hover {
+    background-color: #3742fa;
+    cursor: pointer;
 }
 
 footer {
