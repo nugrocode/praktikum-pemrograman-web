@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pertemuan 2</title>
+
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="image/logo_ukit.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <h1>Website Profil Mahasiswa</h1>
+    </header>
+
+    <!-- navigation -->
+    <nav aria-label="Navigasi Utama">
+      <ul>
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#artikel">Artikel</a></li>
+        <li><a href="#kotak">Kontak</a></li>
+      </ul>
+    </nav>
+
+    <!-- main content -->
+    <main>
+      <!-- home -->
+      <section id="home" aria-labelledby="judul-home">
+        <h2 id="judul-home">selamat datang</h2>
+        <p>
+          ini adalah website profil mahasiswa yang dibuat dengan semantic HTML
+        </p>
+      </section>
+      <!-- about -->
+      <section id="tentang" aria-labelledby="judul-tentang">
+        <h2 id="judul-tentang">Tentang Saya</h2>
+        <article>
+          <h3>Profil Singkat</h3>
+          <p>
+            Saya adalah mahasiswa program studi teknik informatika yang sedang
+            belajar pemrograman we
+          </p>
+        </article>
+      </section>
+      <!-- articke -->
+      <section id="artikel" aria-labelledby="judul-artikel">
+        <h2 id="judul-artikel">rtikel Terbaru</h2>
+        <article>
+          <h3>Belajar HTML itu mudah</h3>
+          <p>HTML adalah bahasa dasar untuk membuat website</p>
+        </article>
+        <article>
+          <h3>Pentingnya Accessibility</h3>
+          <p>Website harus bisa diakses oleh semua orang</p>
+        </article>
+      </section>
+
+      <!-- contact -->
+      <section id="kotak" aria-labelledby="judul-kotak">
+        <h2 id="judul-kotak">Kotak</h2>
+
+        <form action="#" aria-label="Formulir Kotak">
+          <label for="nama">Nama </label>
+          <input type="text" id="nama" required />
+
+          <label for="email">Email </label>
+          <input type="text" id="email" required />
+
+          <label for="pesan">Pesan </label>
+          <textarea name="pesan" id="pesan" required></textarea>
+
+          <button aria-label="kirim pesan">Kirim</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <p>&copy; 2026 praktikum web</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
