@@ -47,7 +47,7 @@
       </section>
       <!-- articke -->
       <section id="artikel" aria-labelledby="judul-artikel">
-        <h2 id="judul-artikel">rtikel Terbaru</h2>
+        <h2 id="judul-artikel">Artikel Terbaru</h2>
         <article>
           <h3>Belajar HTML itu mudah</h3>
           <p>HTML adalah bahasa dasar untuk membuat website</p>
@@ -57,22 +57,26 @@
           <p>Website harus bisa diakses oleh semua orang</p>
         </article>
       </section>
-
       <!-- contact -->
       <section id="kotak" aria-labelledby="judul-kotak">
         <h2 id="judul-kotak">Kotak</h2>
 
         <form action="#" aria-label="Formulir Kotak">
-          <label for="nama">Nama </label>
-          <input type="text" id="nama" required />
-
-          <label for="email">Email </label>
-          <input type="text" id="email" required />
-
-          <label for="pesan">Pesan </label>
-          <textarea name="pesan" id="pesan" required></textarea>
-
-          <button aria-label="kirim pesan">Kirim</button>
+          <div class="form-group">
+            <label for="nama">Nama </label>
+            <input type="text" id="nama" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email </label>
+            <input type="text" id="email" required />
+          </div>
+          <div class="form-group">
+            <label for="pesan">Pesan </label>
+            <textarea name="pesan" id="pesan" required></textarea>
+          </div>
+          <div class="button">
+            <button aria-label="kirim pesan">Kirim</button>
+          </div>
         </form>
       </section>
     </main>
